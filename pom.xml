@@ -5,8 +5,8 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<!-- Identification -->
-	<groupId>org.odlabs.wiquery</groupId>
-	<artifactId>wiquery-ckeditor</artifactId>
+	<groupId>com.bzwbk.wiquery</groupId>
+	<artifactId>wiquery-mask</artifactId>
 	<packaging>jar</packaging>
 	<version>1.0-SNAPSHOT</version>
 
@@ -14,11 +14,14 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<wicket.version>1.4.7</wicket.version>
-		<wiquery.version>1.0.1</wiquery.version>
+		<wicket.version>1.4.17</wicket.version>
+		<wiquery.version>1.2.4</wiquery.version>
 		<jdk.version>1.5</jdk.version>
 	</properties>
 
+	<organization>
+		<name>BZWBK S.A.</name>
+	</organization>
 	<build>
 		<plugins>
 			<plugin>
